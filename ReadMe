@@ -1,0 +1,32 @@
+1. This application is on port 8888
+2. Create database by using the following MySQL command
+
+   ````create database seo_optimization;````
+
+   JSON
+   ````
+   {
+       "first_name": "test",
+       "last_name": "test",
+       "address": "test",
+       "email": "test@gmail.com",
+       "username": "test",
+       "password": "123456"
+   }
+   ````
+
+   ````admin register url````
+   http://localhost:8888/seo/register/admin
+
+
+   ````admin login url````
+   http://localhost:8888/seo/auth
+
+   ````admin login history url````
+   http://localhost:8888/seo/login/admin
+
+   ````add tips url````
+   http://localhost:8888/seo/add/tips
+
+   ````get tips url````
+   http://localhost:8888/seo/get/tips
